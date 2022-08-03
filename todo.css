@@ -1,0 +1,50 @@
+
+.container{
+    width: 35rem !important;
+    min-height: 15rem;
+}
+body {
+    background-color:#181820 !important ;
+}
+.main-task-container, .completed-task-container {
+    min-height: 10rem;
+}
+.add-button {
+    border-radius: 7px !important;
+    font-size: 9pt !important;
+    font-weight: 800 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #FC76A1 !important;
+}
+input {
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 10pt !important;
+}
+.form-check-input {
+    font-size: 15px!important;
+    border: 2.5px solid #FC76A1;
+    background-color: transparent;
+    border-radius: 5px !important;
+    
+}
+.form-check-input:checked {
+    background-color: #FC76A1 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+.deleteButton {
+    color: white !important;
+    font-size: 13pt;
+    padding-top: 7px;
+    margin: 0;
+}
+.task-row i {
+    visibility: hidden;
+}
+.task-row:hover i {
+    visibility: visible;
+    cursor: pointer;
+}
