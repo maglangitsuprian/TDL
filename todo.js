@@ -50,3 +50,7 @@ const myInput = document.querySelector("input")
 myInput.addEventListener("keypress", function(event){
     if (event.key === "Enter") {addTask(); counter(); }
 })
+
+
+
+//// this is a comment
